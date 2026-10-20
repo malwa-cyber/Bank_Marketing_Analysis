@@ -6,9 +6,11 @@ I do not own this dataset.
 [Moro et al., 2011] S. Moro, R. Laureano and P. Cortez. Using Data Mining for Bank Direct Marketing: An Application of the CRISP-DM Methodology.
 
 ## Hypothesis
-H0: Subscription rate is independent of previous outcome.
+H0: Subscription  is independent of previous  campaign outcome.
 
-H1: Subscription rate is dependent of previous outcome.
+H1: Subscription  is dependent of previous campaign outcome.
+
+-Basically, we are testing the association between Subscription and previous campaign outcome.
 
 # Data Cleaning
 -Checked for null values, missing values and inconsistent values using SQL.
@@ -17,7 +19,12 @@ H1: Subscription rate is dependent of previous outcome.
 
 -Since the data had no unique values or columns I didn't check for duplicates.
 
+### Cleaned Bank Market file.
+
 ![Cleaned bank market file](bank_mkt_cleaned.png)
+
+## Analysis
+
 
 
 
