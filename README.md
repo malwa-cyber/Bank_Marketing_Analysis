@@ -7,7 +7,7 @@ I do not own this dataset.
 H0: Subscription rate is independent of previous outcome.
 H1: Subscription rate is dependent of previous outcome.
 
-#Data Cleaning
+# Data Cleaning
 -Checked for null values, missing values and inconsistent values using SQL.
 -No NULL values were found. I didn't find missing values'' but  I found 'unknown' values across job, education ,contact, and poutcome and decided to leave them there because it might alter our data.
 -Since the data had no unique values or columns I didn't check for duplicates.
