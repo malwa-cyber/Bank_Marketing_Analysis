@@ -13,3 +13,5 @@ H1: Subscription rate is dependent of previous outcome.
 -Since the data had no unique values or columns I didn't check for duplicates.
 
 
+
+
