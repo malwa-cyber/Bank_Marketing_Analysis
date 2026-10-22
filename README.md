@@ -23,7 +23,23 @@ H1: Subscription  is dependent of previous campaign outcome.
 
 ![Cleaned bank market file](bank_mkt_cleaned.png)
 
+## Finding :Previous Campaign Outcome
+|Previous Outcome | Subscription_Rate| Lift vs Overall|
+|---|---|---|
+|success|64.73|5.54x|
+|failure|12.61|1.08x|
+|other|16.68|1.43x|
+|unknown|9.16|0.78x|
+
+Overall subscription rate:11.69%
+
+χ²(3)=4391.5, p-value<0.001, Cramer's V=0.31
+
+
+
+
 ## Analysis
+
 
 
 
