@@ -42,6 +42,9 @@ Overall subscription rate:11.69%
 
 **Takeaway:** Clients with a previous successful campaign outcome were 5.5 times more likely to subscribe to the term deposit.
 
+# Chi-square test table.
+<img width="545" height="262" alt="image" src="https://github.com/user-attachments/assets/5949ef75-5db3-441e-ba8f-e2c9d39fb3c7" />
+
 
 
 
