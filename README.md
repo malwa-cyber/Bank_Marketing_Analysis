@@ -52,6 +52,8 @@ Overall subscription rate:11.69%
 
 **Limitation:** Association does not mean causation. We do not know whether the clients are subscribing to the term deposit because of previous campaign outcomes. That is not explained by this analysis. Additionally, the "unknown" group is large and the results might be affected  depending on how they were handled. We also have analyzed only two variables, that is why the saturated model was better.
 
+**Recommendation:** To re-target clients who had a successful previous campaign outcome.
+
 
 
 
