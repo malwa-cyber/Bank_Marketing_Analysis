@@ -36,14 +36,21 @@ Overall subscription rate:11.69%
 χ²(3)=4391.5, p-value<0.001, Cramer's V=0.31
 
 - There is a statistically significant, moderate association between previous campaign outcome and subscription rate(χ²(3)=4391.5, p-value<0.001, Cramer's V=0.31) hence it is helpful to predict who is likely to subscribe and to find the target audience.
+  
+ # Finding: Logistic regression model in R
+ Independence model: residual deviance=1644, df=3, p-value<0.001, AIC=1730
+ Saturated model: AIC=j91.72
+ Pearson chi-square= 4391.5, df=3, p-value<0.001
+ -The independence model fits poorly, while the saturated model reproduces the data exactly and produces a much lower AIC which shows accuracy.
 
 # A Bar Chart Subscription Rate by Previous Campaign Outcome 
 <img width="1653" height="993" alt="Subscriptionrate_previousoutcome" src="https://github.com/user-attachments/assets/82b40430-c40a-438b-bc80-792a13e52cfa" />
 
 **Takeaway:** Clients with a previous successful campaign outcome were 5.5 times more likely to subscribe to the term deposit.
 
-# Chi-square test table.
-<img width="545" height="262" alt="image" src="https://github.com/user-attachments/assets/5949ef75-5db3-441e-ba8f-e2c9d39fb3c7" />
+**Conclusion:** Subscription is dependent of previous campaign outcomes. The analysis has shown clients with a successful previous campaign outcome are 5.5x more likely to subscribe.
+
+**Limitation:** Association does not mean causation. We do not know whether the clients are subscribing to the term deposit because of previous campaign outcomes. That is not explained by this analysis. Additionally, the "unknown" group is large and the results might be affected  depending on how they were handled. We also have analyzed only two variables, that is why the saturated model was better.
 
 
 
